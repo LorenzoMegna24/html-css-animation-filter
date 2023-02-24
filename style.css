@@ -36,8 +36,9 @@
     transition: all 1s ease 0s;
 }
 .ex-4-square:hover{
-    background-color: transparent;
+    opacity: 0;
 }
+
 /* esercizio 5 */
 .ex-5-square {
     margin: 20px;
@@ -53,14 +54,36 @@
     scale: 0.5;
 }
 
+/* esercizio 6-7-8 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-
+/* 6 */
+.ex-6-img:hover{
+filter: grayscale(2);
+}
+/* 8 */
+.ex-8-img{
+    transition: all 3s ease 0s;
+}
+.ex-8-img:hover{
+    filter: grayscale(10%) saturate(50%);
+    border-radius: 30px;
+}
+/* esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img{
+    transition: all 3s ease 0s;
+}
+.ex-9-img:hover{
+    filter: grayscale(10%) saturate(50%);
+    border-radius: 30px;
+    scale: 1.5;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
